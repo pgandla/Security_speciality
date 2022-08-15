@@ -1,0 +1,11 @@
+- Cryptography - Symmetric & Asymmetric
+- Protocols: FTP, DNS, TCP, SFTP, HTTP, IP
+- Disk-level encryption
+- CloudHSM: VPC, Separation of duties, HSM Cluster for availability, FIPS validated
+- KMS: AWS, CMK keys; 4Kb data with CMK; Envelope encryption; Disable/Delete KMS keys; 
+- Asymmetric: PGP, SSH, TLS; KMS - Encrypt/Decrypt, Sign-in/Verify
+- Digital signing with KMS
+- Data Key caching
+- Delete CMK key
+- KMS Authentication & Access control
+- 
