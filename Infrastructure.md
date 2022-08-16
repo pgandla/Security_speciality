@@ -1,5 +1,18 @@
 # AWS - SS Course
 ## 13/08/22
+- Bastion & SSH Forwarding
+- VPN
+- ClientVPN service
+- VPN tunnels
+- VPC peering
+- Gateway/Interface Endpoints
+- Network ACLs
+- Stateful & Stateless Firewalls
+- IDS/IPS
+- EBS Encryption
+- CDN - CloudFront & Edge locations, OAI, Signed Urls, Field-level Encryption
+- DoS Attacks
+- AWS Shield
 - EC2 Tenancy - Shared, Dedicated, DedicatedHost
 - AWS Artifacts: Audit reports
 - Lambda@Edge: viewer-req, origin-req, origin-res, viewer-res - Run lambdas at 4 points. 

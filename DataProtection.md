@@ -6,6 +6,8 @@
 - Asymmetric: PGP, SSH, TLS; KMS - Encrypt/Decrypt, Sign-in/Verify
 - Digital signing with KMS
 - Data Key caching
-- Delete CMK key
+- Delete the CMK key
 - KMS Authentication & Access control
-- 
+- KMS Grants: Grant -> token -> Grantee
+- Import Key into KMS -  External type; 
+- KMS: ViaService - 
