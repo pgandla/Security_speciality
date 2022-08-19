@@ -10,4 +10,26 @@
 - KMS Authentication & Access control
 - KMS Grants: Grant -\> token -\> Grantee
 - Import Key into KMS -  External type; 
-- KMS: ViaService: 
+- KMS: ViaService: Key policy
+- KMS services migrate regions: 
+	- New CMK for destination region
+	- Envelop encryption -\> decrypt to data and migrate
+	- Multi-Region KMS keys: primary and replica keys 
+	- Shared properties: KeyID, Key Material
+	- Only the primary key replicated
+- CloudHSM vs KMS:
+	- KMS can be administrated by AWS
+	- Bulk crypto
+	- Admin can share keys
+	- Support Java, PKCS apps
+### - S3 encryption :
+	- Server-side/Client-side
+	- SSE: S3, KMS, C
+	- SSE-S3: Each object is encrypted with a unique key, AES256
+	- SSE-KMS: create KMS keys and encrypt
+	- SSE-C: customer provides key
+### - Load balancing:
+	- ALB: HTTP/HTTPS, Scaling, WAF, ACM
+	- NLB: TCP/UDP/SSL, High performance
+	- GLW: Virtual appliance, Firewalls, IPS, IDS
+	- 
