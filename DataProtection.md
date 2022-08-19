@@ -8,6 +8,6 @@
 - Data Key caching
 - Delete the CMK key
 - KMS Authentication & Access control
-- KMS Grants: Grant -> token -> Grantee
+- KMS Grants: Grant -\> token -\> Grantee
 - Import Key into KMS -  External type; 
-- KMS: ViaService - 
+- KMS: ViaService: 
