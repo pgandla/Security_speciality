@@ -32,4 +32,11 @@
 	- ALB: HTTP/HTTPS, Scaling, WAF, ACM
 	- NLB: TCP/UDP/SSL, High performance
 	- GLW: Virtual appliance, Firewalls, IPS, IDS
-	- 
+	- Listeners & Target groups
+### ELB logs
+- Logs as pushed to S3
+- Create a bucket in ALB
+### ACM
+### Glacier vault
+- backup & restore
+- 
