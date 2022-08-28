@@ -1,0 +1,23 @@
+# Logging & Monitoring
+- Vulnerability, Exploit, Payload
+- CVE & CVSS
+- Inspector: Vulnerability scanner, SSM agent, IAM role
+- Supported scans - EC2, ECR scans
+- Security Hub: High-level overview of security alerts and compliance. GaurdDuty, Inspector, Macie
+- CIS AWS Foundation, PCI DSS
+- Enable Config before Hub
+- GaurdDuty+Macie+Inspector => Huub
+- WAF: Firewall works at layers 3 & 4
+- HTTP level protection
+- Rule Statement, Rules, WebACL, Association
+- Regular rule, Rate-Based rule
+- ALB, CloudFront, API Gateway, AppSync
+- Custom and Managed rules
+# Systems Manager 
+- SSM Agent
+- Fleet manager
+- Sessions manager
+- Run command - command document
+- Patch manager: Patch baseline, maintenance window
+- Scan, Scan and apply
+- Parameter store: centralized parameter configs.
